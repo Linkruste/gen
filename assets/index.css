@@ -10,3 +10,7 @@ a.link {
 	font-weight: bold;
 	text-decoration: none;
 }
+
+a.link:hover {
+	color: white;
+}
