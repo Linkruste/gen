@@ -7,4 +7,6 @@ nav {
 
 a.link {
 	color: skyblue;
+	font-weight: bold;
+	text-decoration: none;
 }
