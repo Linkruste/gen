@@ -1,8 +1,9 @@
 * {
 	font-family: arial
 }
-nav {
+nav.navi {
 	background-color: rgb(0,175,255);
+	border-radius: 25px;
 }
 
 a.link {
