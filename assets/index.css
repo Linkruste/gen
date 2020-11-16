@@ -25,3 +25,8 @@ a.link:hover {
 strong.red {
 	color: red;
 }
+
+div.project {
+	background-color: rgb(145,145,145);
+	
+}
