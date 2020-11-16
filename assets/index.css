@@ -4,12 +4,16 @@
 nav.navi {
 	background-color: rgb(0,175,255);
 	border-radius: 25px;
+	padding: 2px;
 }
 
 a.link {
 	color: skyblue;
 	font-weight: bold;
 	text-decoration: none;
+	transition-property: color;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
 }
 
 a.link:hover {
