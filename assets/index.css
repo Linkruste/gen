@@ -3,12 +3,13 @@
 }
 nav.navi {
 	background-color: rgb(0,175,255);
-	border-radius: 25px;
-	padding: 2px;
+	padding: 20px;
 }
 
 a.link {
-	color: skyblue;
+	padding: 5px;
+	background-color: skyblue;
+	color: black;
 	font-weight: bold;
 	text-decoration: none;
 	transition-property: color;
