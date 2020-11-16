@@ -7,6 +7,7 @@ nav.navi {
 }
 
 a.link {
+	margin: 2px;
 	padding: 5px;
 	background-color: skyblue;
 	color: black;
