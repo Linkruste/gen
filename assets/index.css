@@ -30,3 +30,24 @@ div.project {
 	background-color: rgb(145,145,145);
 	
 }
+
+.bouton2 {
+	padding:2px 2px 2px;
+	background-color: rgb(37, 164, 235);
+	color:#fff;
+	border-radius:5px;
+	border:none;
+	text-decoration: none;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+.bouton2:hover {
+	background-color: rgb(15, 123, 207);
+}
+.bouton2:active {
+	background-color: rgb(0, 62, 142);
+}
+li {
+	padding-bottom: 10px; 
+}
