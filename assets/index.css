@@ -56,7 +56,8 @@ div.project{
     padding:5px 5px 6px;
     background-color:rgb(238,51,43);
     color:#fff;
-    border-radius:100px;text-decoration:none;
+    border-radius:100px;
+    text-decoration:none;
     text-decoration:none;
     transition-property:background-color;
     transition-duration:0.15s;
