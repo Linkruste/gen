@@ -1,95 +1,74 @@
-/* Les bases bien fondees de Matheo */
-body {
-	-webkit-user-select: none; 
-    -webkit-touch-callout: none; 
-    -moz-user-select: none; 
-    -ms-user-select: none; 
-    user-select: none;
+body{
+    -webkit-user-select:none;
+    -webkit-touch-callout:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
 }
-* {
-	font-family: arial;
-
-
-
+*{
+    font-family:arial;
 }
-nav.navi {
-	background-color: rgb(0,175,255);
-	padding: 20px;
-
+nav.navi{
+    background-color:rgb(0,175,255);
+    padding:20px;
 }
-
-a.link {
-	margin: 2px;
-	padding: 5px;
-	background-color: skyblue;
-	color: black;
-	font-weight: bold;
-	text-decoration: none;
-	transition-property: color;
-	transition-duration: 0.5s;
-	transition-timing-function: ease;
+a.link{
+    margin:2px;
+    padding:5px;
+    background-color:skyblue;
+    color:black;
+    font-weight:bold;
+    text-decoration:none;
+    transition-property:color;
+    transition-duration:0.5s;
+    transition-timing-function:ease;
 }
-
-a.link:hover {
-	color: white;
+a.link:hover{
+    color:white;
 }
-
-li {
-	padding-bottom: 10px; 
+li{
+    padding-bottom:10px;
 }
-
-strong.red {
-	color: red;
+strong.red{
+    color:red;
 }
-
-div.project {
-	background-color: rgb(145,145,145);
-	
+div.project{
+    background-color:rgb(145,145,145);
 }
-/*                  Le bazar de Jean                      */
-
-/* Boutons 2 */
-.bouton2 {
-	padding:2px 2px 2px;
-	background-color: rgb(37, 164, 235);
-	color:#fff;
-	border-radius:5px;
-	border:none;
-	text-decoration: none;
-	transition-property: background-color;
-	transition-duration: 0.5s;
-	transition-timing-function: ease;
+.bouton2{
+    padding:2px 2px 2px;
+    background-color:rgb(37,164,235);
+    color:#fff;
+    border-radius:5px;
+    border:none;
+    text-decoration:none;
+    transition-property:background-color;
+    transition-duration:0.5s;
+    transition-timing-function:ease;
 }
-.bouton2:hover {
-	background-color: rgb(15, 123, 207);
+.bouton2:hover{
+    background-color:rgb(15,123,207);
 }
-.bouton2:active {
-	background-color: rgb(0, 62, 142);
+.bouton2:active{
+    background-color:rgb(0,62,142);
 }
-
-/* Boutons 3 */
-
-.bouton3 {
-	padding:5px 5px 5px;
-	background-color: rgb(238, 51, 43);
-	color:#fff;
-	border-radius:100px;
-	text-decoration: none;
-	text-decoration: none;
-	transition-property: background-color;
-	transition-duration: 0.15s;
-	transition-timing-function: ease;
-
+.bouton3{
+    padding:5px 5px 6px;
+    background-color:rgb(238,51,43);
+    color:#fff;
+    border-radius:100px;text-decoration:none;
+    text-decoration:none;
+    transition-property:background-color;
+    transition-duration:0.15s;
+    transition-timing-function:ease;
 }
-.bouton3:hover {
-	background-color: rgb(200, 25, 20);
+.bouton3:hover{
+    background-color:rgb(200,25,20);
 }
-.bouton3:active {
-	background-color: rgb(190, 20, 10);
+.bouton3:active{
+    background-color:rgb(190,20,10);
 }
-
-/* POSITION TORTUE */
-#tortue {
-	position: absolute;
-	right: 4%;
+#tortue{
+    position:absolute;
+    right:4%;
 }
